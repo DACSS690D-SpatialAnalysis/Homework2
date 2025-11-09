@@ -13,10 +13,7 @@ library(flexdashboard) # always
 <!-- links -->
 ```{r}
 map1link=
-viz1=url(map1link)
-
-map2link=
-viz2=url(map2link)
+viz1=url("https://github.com/DACSS690D-SpatialAnalysis/Homework2/raw/refs/heads/main/lowell_map.rds")
 ```
 
 ## Intro {.sidebar}
@@ -33,23 +30,4 @@ I can give some textual explanation here!
 readRDS(viz1)
 ```
 
-### GIVE ME A TITLE 2
 
-```{r}
-
-readRDS(viz2)
-```
-
-## Column {data-width="550"}
-
-### GIVE ME A TITLE 3
-
-```{r}
-readRDS(viz1)
-```
-
-### GIVE ME A TITLE 4
-
-```{r}
-readRDS(viz2)
-```
