@@ -1,19 +1,23 @@
 ---
-title: "My Dashbord at DACSS"
+title: "Homework #2 DACSS690"
+author: "Annabel Smith"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
+    navbar:
+      - { title: "GitHub", icon: "fa-github", href: "https://github.com/DACSS690D-SpatialAnalysis/Homework2", align: right }
 ---
 
 
 ```{r setup, include=FALSE}
 library(flexdashboard) # always
+library(ggplot2)
 ```
 
 <!-- links -->
 ```{r}
 map1link=
 viz1=url("https://github.com/DACSS690D-SpatialAnalysis/Homework2/raw/refs/heads/main/lowell_map.rds")
+
 ```
 
 ## Intro {.sidebar}
@@ -27,7 +31,7 @@ I can give some textual explanation here!
 
 ```{r}
 
-readRDS(viz1)
+readRDS(viz1_formatted)
 ```
 
 
