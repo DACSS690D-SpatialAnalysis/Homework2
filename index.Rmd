@@ -31,7 +31,7 @@ I can give some textual explanation here!
 
 ```{r}
 
-readRDS(viz1_formatted)
+readRDS(viz1)
 ```
 
 
